@@ -1,12 +1,11 @@
 import streamlit as st
 
+st.set_page_config(page_title="KulinerBuddyAI", page_icon="🍲")
 st.title("🍲 KulinerBuddyAI")
-st.write("Selamat datang! Saya asisten kuliner Anda.")
+st.write("Selamat datang! Saya asisten pribadi kuliner Anda.")
 
-# Chat input
-if prompt := st.chat_input("Mau makan apa hari ini?"):
+# Input percakapan
+if prompt := st.chat_input("Mau makan apa hari ini? (contoh: pedas, murah, halal)"):
     st.chat_message("user").markdown(prompt)
-
-    # Balasan otomatis sederhana
-    response = f"Rekomendasi KulinerBuddyAI untuk '{prompt}': Coba kunjungi **Ayam Geprek Sambal Korek** dekat sini! ⭐ 4.8"
+    response = f"🤖 **Rekomendasi KulinerBuddyAI:** Berdasarkan pencarian '{prompt}', coba kunjungi **Nasi Goreng Spesial / Ayam Geprek Sambal Korek** terdekat! ⭐ Rating 4.8"
     st.chat_message("assistant").markdown(response)
