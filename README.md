@@ -168,7 +168,7 @@ KulinerBuddyAI/
 # 🎨 Tampilan Antarmuka (UI)
 
 <p align="center">
-<img src="https://github.com/lovieellatiy-sketch/KulinerBuddyAI/blob/main/culinerbuddyai.png" width="800">
+<img src="https://github.com/lovieellatiy-sketch/KulinerBuddyAI/blob/main/robot.png" width="800">
 </p>
 
 ---
