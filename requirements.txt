@@ -1,7 +1,2 @@
 streamlit
-openai
-python-dotenv
-pandas
-requests
-streamlit
 google-generativeai
