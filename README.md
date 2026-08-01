@@ -58,7 +58,7 @@ Seringkali masyarakat atau wisatawan menghabiskan banyak waktu hanya untuk memut
 
 | Welcoming Screen | Rekomendasi Chatbot | Detail & Rute Lokasi |
 | :---: | :---: | :---: |
-| *(Unggah Foto UI 1)* | *(Unggah Foto UI 2)* | *(Unggah Foto UI 3)* |
+| *![Tampilan UI Chatbot](LINK_GAMBAR_YANG_ANDA_COPY_TADI)* | *(Unggah Foto UI 2)* | *(Unggah Foto UI 3)* |
 
 *(Catatan: Tangkapan layar UI lengkap dan rancangan wireframe dapat dilihat pada lampiran dokumen PDF proyek)*
 
