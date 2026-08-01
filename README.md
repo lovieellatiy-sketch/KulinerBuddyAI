@@ -3,12 +3,16 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python Version](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 [![Status](https://img.shields.io/badge/Status-Prototype-orange.svg)]()
-![GitHub stars](https://img.shields.io/github/stars/USERNAME/KulinerBuddyAI?style=social)
-![GitHub forks](https://img.shields.io/github/forks/USERNAME/KulinerBuddyAI?style=social)
-![GitHub issues](https://img.shields.io/github/issues/USERNAME/KulinerBuddyAI)
-![GitHub last commit](https://img.shields.io/github/last-commit/USERNAME/KulinerBuddyAI)
+![GitHub stars](https://img.shields.io/github/stars/lovieellatiy-sketch/KulinerBuddyAI?style=social)
+![GitHub forks](https://img.shields.io/github/forks/lovieellatiy-sketch/KulinerBuddyAI?style=social)
+![GitHub issues](https://img.shields.io/github/issues/lovieellatiy-sketch/KulinerBuddyAI)
+![GitHub last commit](https://img.shields.io/github/last-commit/lovieellatiy-sketch/KulinerBuddyAI)
 
-**KulinerBuddyAI** adalah asisten kuliner berbasis Artificial Intelligence (AI) yang membantu pengguna menemukan menu makanan, kuliner khas daerah, serta rekomendasi tempat makan terbaik berdasarkan lokasi, anggaran, dan preferensi pribadi melalui percakapan yang alami (*Natural Language Processing*).
+---
+
+# 🍽️ KulinerBuddyAI
+
+**KulinerBuddyAI** adalah asisten kuliner berbasis **Artificial Intelligence (AI)** yang membantu pengguna menemukan menu makanan, kuliner khas daerah, serta rekomendasi tempat makan terbaik berdasarkan **lokasi, anggaran, dan preferensi pribadi** melalui percakapan yang alami (*Natural Language Processing*).
 
 ---
 
@@ -31,20 +35,9 @@
 
 # 💡 Latar Belakang
 
-Banyak orang sering menghabiskan waktu hanya untuk menjawab pertanyaan sederhana:
+Sering kali masyarakat maupun wisatawan menghabiskan banyak waktu hanya untuk menentukan pilihan makanan. Selain itu, tidak sedikit pengguna yang kesulitan menemukan tempat makan yang sesuai dengan kebutuhan seperti **Halal**, **Vegetarian**, **budget tertentu**, atau lokasi yang dekat.
 
-> **"Hari ini makan apa?"**
-
-Selain itu, wisatawan maupun masyarakat umum juga sering mengalami kesulitan menemukan tempat makan yang sesuai dengan kebutuhan, seperti:
-
-- Halal
-- Vegetarian/Vegan
-- Budget tertentu
-- Dekat dari lokasi
-- Buka 24 jam
-- Cocok untuk keluarga
-
-**KulinerBuddyAI** hadir sebagai solusi berbasis AI yang mampu memberikan rekomendasi makanan secara cepat, personal, dan interaktif.
+**KulinerBuddyAI** hadir sebagai solusi berbasis AI yang mampu memberikan rekomendasi makanan secara cepat, personal, dan interaktif sehingga proses memilih makanan menjadi lebih mudah dan menyenangkan.
 
 ---
 
@@ -52,21 +45,21 @@ Selain itu, wisatawan maupun masyarakat umum juga sering mengalami kesulitan men
 
 ### 🧳 Wisatawan
 
-- Mencari makanan khas daerah
-- Menemukan hidden gem
+- Menemukan makanan khas daerah
+- Mencari hidden gem
 - Mendapat rekomendasi restoran terbaik
 
-### 🍔 Foodies
+### 🍜 Foodies
 
-- Mencari tempat makan baru
+- Menjelajahi kuliner baru
 - Berdasarkan rating tertinggi
 - Berdasarkan suasana tempat
 
 ### 👨‍💼 Pekerja & Mahasiswa
 
-- Menentukan menu harian
+- Menentukan menu makan harian
 - Budget-friendly
-- Dekat dari lokasi
+- Tempat makan terdekat
 
 ### 🥗 Pengguna Diet Khusus
 
@@ -83,22 +76,22 @@ Selain itu, wisatawan maupun masyarakat umum juga sering mengalami kesulitan men
 
 Menampilkan restoran terdekat lengkap dengan:
 
-- Jarak
-- Rating
-- Kisaran harga
-- Jam operasional
+- 📌 Jarak
+- ⭐ Rating
+- 💰 Estimasi harga
+- 🕒 Jam operasional
 
 ---
 
-## 💰 Filter Budget
+## 💸 Filter Budget
 
-Contoh:
+Contoh pencarian:
 
 > Cari makan siang di bawah Rp20.000
 
 ---
 
-## 🥗 Filter Kebutuhan Khusus
+## 🥗 Filter Diet Khusus
 
 Mendukung pencarian:
 
@@ -112,17 +105,17 @@ Mendukung pencarian:
 
 ## 🎲 Bingung Mau Makan Apa?
 
-AI akan memilihkan menu secara acak sesuai preferensi pengguna.
+AI akan memberikan rekomendasi menu secara acak sesuai preferensi pengguna.
 
 ---
 
-## 🗺 Integrasi Google Maps
+## 🗺️ Integrasi Google Maps
 
-Menampilkan:
+Menyediakan:
 
-- Rating
-- Review Singkat
-- Navigasi Google Maps
+- Ringkasan ulasan
+- Rating restoran
+- Navigasi menuju lokasi
 
 ---
 
@@ -138,7 +131,7 @@ atau
 
 ---
 
-# 🛠 Teknologi
+# 🛠️ Teknologi
 
 | Teknologi | Fungsi |
 |-----------|--------|
@@ -147,7 +140,7 @@ atau
 | Streamlit | User Interface |
 | Google Maps Places API | Data Lokasi |
 | Pandas | Pengolahan Data |
-| NLP | Pemrosesan Bahasa Alami |
+| NLP | Natural Language Processing |
 
 ---
 
@@ -157,15 +150,11 @@ atau
 KulinerBuddyAI/
 │
 ├── assets/
-│   ├── images/
-│   └── icons/
+│   └── images/
 │
 ├── data/
-│
 ├── models/
-│
 ├── services/
-│
 ├── utils/
 │
 ├── main.py
@@ -178,25 +167,23 @@ KulinerBuddyAI/
 
 # 🎨 Tampilan Antarmuka (UI)
 
-| Welcome Screen | Chat Recommendation | Detail Restaurant |
-|:--------------:|:------------------:|:----------------:|
-| ![](assets/images/home.png) | ![](assets/images/chat.png) | ![](assets/images/detail.png) |
-
-> **Catatan:** Ganti gambar di atas dengan screenshot aplikasi Anda.
+<p align="center">
+<img src="https://github.com/lovieellatiy-sketch/KulinerBuddyAI/blob/main/culinerbuddyai.png" width="800">
+</p>
 
 ---
 
 # 💬 Contoh Penggunaan
 
-### User
+### 👤 User
 
-```
+```text
 Cari makan siang pedas di bawah Rp20.000 dekat saya
 ```
 
-### KulinerBuddyAI
+### 🤖 KulinerBuddyAI
 
-```
+```text
 🍜 Berikut rekomendasi untuk Anda
 
 1. Ayam Geprek Pak Budi ⭐ 4.8
@@ -222,7 +209,7 @@ Apakah Anda ingin melihat rute Google Maps?
 
 - Python 3.9+
 - Git
-- OpenAI API Key / Gemini API
+- OpenAI API Key atau Google Gemini API
 - Google Maps API (Opsional)
 
 ---
@@ -230,7 +217,7 @@ Apakah Anda ingin melihat rute Google Maps?
 ## Clone Repository
 
 ```bash
-git clone https://github.com/USERNAME/KulinerBuddyAI.git
+git clone https://github.com/lovieellatiy-sketch/KulinerBuddyAI.git
 
 cd KulinerBuddyAI
 ```
@@ -249,7 +236,7 @@ Windows
 venv\Scripts\activate
 ```
 
-Linux / macOS
+Linux/macOS
 
 ```bash
 source venv/bin/activate
@@ -277,13 +264,15 @@ GOOGLE_MAPS_API_KEY=your_google_maps_api_key
 
 ---
 
-## Jalankan Program
+## Menjalankan Program
+
+Jika menggunakan Python
 
 ```bash
 python main.py
 ```
 
-atau jika menggunakan Streamlit
+Jika menggunakan Streamlit
 
 ```bash
 streamlit run app.py
@@ -291,9 +280,9 @@ streamlit run app.py
 
 ---
 
-# 🛣 Roadmap
+# 🛣️ Roadmap
 
-- [x] Chatbot AI
+- [x] AI Chatbot
 - [x] Rekomendasi berdasarkan lokasi
 - [x] Filter Budget
 - [x] Filter Halal
@@ -312,9 +301,8 @@ streamlit run app.py
 
 Kontribusi sangat terbuka.
 
-Langkah-langkah:
-
 1. Fork repository
+
 2. Buat branch baru
 
 ```bash
@@ -327,7 +315,7 @@ git checkout -b fitur-baru
 git commit -m "Menambahkan fitur baru"
 ```
 
-4. Push ke repository
+4. Push ke GitHub
 
 ```bash
 git push origin fitur-baru
@@ -339,24 +327,26 @@ git push origin fitur-baru
 
 # 📄 Lisensi
 
-Project ini menggunakan lisensi **MIT License**.
+Project ini menggunakan **MIT License**.
 
 Silakan menggunakan, memodifikasi, dan mendistribusikan project ini sesuai ketentuan lisensi MIT.
 
 ---
 
-# 👨‍💻 Author
+# 👩‍💻 Author
 
-**Nama:** Nama Anda
+**Lovieella**
 
-**GitHub:** https://github.com/USERNAME
+📧 Email : lovieella.tiy@gmail.com
 
-**Email:** email@example.com
+🐙 GitHub : https://github.com/lovieellatiy-sketch
 
 ---
 
-## ⭐ Jika project ini bermanfaat
+## ⭐ Dukungan
 
-Jangan lupa berikan **Star ⭐** pada repository ini agar semakin banyak orang yang dapat memanfaatkannya.
+Apabila project ini bermanfaat, jangan lupa berikan **Star ⭐** pada repository ini.
 
-**Terima kasih telah menggunakan KulinerBuddyAI! 🍽🤖**
+Terima kasih telah menggunakan **KulinerBuddyAI**.
+
+**Happy Coding! 🚀🍜**
