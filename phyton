@@ -1,0 +1,12 @@
+import streamlit as st
+
+st.title("🍲 KulinerBuddyAI")
+st.write("Selamat datang! Saya asisten kuliner Anda.")
+
+# Chat input
+if prompt := st.chat_input("Mau makan apa hari ini?"):
+    st.chat_message("user").markdown(prompt)
+
+    # Balasan otomatis sederhana
+    response = f"Rekomendasi KulinerBuddyAI untuk '{prompt}': Coba kunjungi **Ayam Geprek Sambal Korek** dekat sini! ⭐ 4.8"
+    st.chat_message("assistant").markdown(response)
